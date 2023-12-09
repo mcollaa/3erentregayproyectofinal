@@ -1,0 +1,31 @@
+.navbar-container {
+  background-color: #421983a7;
+  backdrop-filter: blur(20px);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  height: 60px;
+  z-index: 10;
+  .nav-links {
+    display: flex;
+    justify-content: flex-start;
+    gap: 30px;
+    li {
+      list-style: none;
+    }
+
+    a {
+      text-decoration: none;
+      color: white;
+    }
+  }
+
+  .social-container {
+    align-items: center;
+    display: flex;
+    gap: 20px;
+  }
+}

@@ -1,0 +1,37 @@
+.services-hero {
+  flex-flow: column;
+  height: fit-content;
+  justify-content: center;
+  align-items: flex-start;
+}
+.services-section {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+
+  .services-socialbuzz {
+    display: flex;
+    flex-flow: column;
+    gap: 40px;
+  }
+  .title-services-container {
+    display: flex;
+    flex-flow: column;
+    gap: 30px;
+    width: 770px;
+
+    .title-services-section {
+      display: flex;
+
+      h2 {
+        line-height: 50px;
+        font-size: 60px;
+      }
+    }
+  }
+}
+
+.list-container {
+  columns: 2;
+  margin-left: 15px;
+}

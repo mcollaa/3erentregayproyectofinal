@@ -1,0 +1,36 @@
+.main-container {
+  &.contact-container {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+
+    .form-container {
+      max-width: 600px;
+      width: 100%;
+
+      .form-input-container {
+        display: flex;
+        gap: 5px;
+        flex-flow: column;
+        width: 100%;
+        input,
+        textarea {
+          padding: 10px 5px;
+          outline: none;
+          border-radius: 5px;
+          border: 1px solid transparent;
+
+          &:focus {
+            border: 1px solid greenyellow;
+          }
+        }
+        textarea {
+          resize: none;
+        }
+      }
+      button {
+        margin-top: 5px;
+      }
+    }
+  }
+}
